@@ -1,0 +1,108 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {"tag": "age",
+      "patterns": ["how old", "how old is virn", "what is your age", "how old are you", "age?", "How old", "How old is virn", "What is your age", "How old are you", "Age?"],
+      "responses": ["My owner Virn is 14 years old!", "14 years!"]},
+      {"tag": "name",
+      "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?", "Can you tell me your name?", "what`s up?", "how is it going?", "What is your name", "What should I call you", "Whats your name?", "Who are you?", "can you tell me your name?", "What`s up?", "How is it going?"],
+      "responses": ["You can call me Neural!", "I`m Neural", "I`m Neural the assistant of Virn!"]},
+      {"tag": "hours",
+      "patterns": ["what time?", "hours now?", "clock", "minuts", "seconds", "time", "watch", "What time?", "Hours now?", "Clock", "Minuts", "Seconds", "Time", "Watch"],
+      "responses": ["You can see time on you device", "I dont know :( but soon i will know", "On my watch is 5 AM"]},
+      {"tag": "eat",
+      "patterns": ["i go eat", "breakfast", "lunch", "drink", "i eat a very yammy", "i want eat", "I go eat", "Breakfast", "Lunch", "Drink", "I eat a very yammy", "I want eat"],
+      "responses": ["Enjoy your meal", "I dont want to eat)", "Cool"]},
+      {"tag": "homework",
+      "patterns": ["i make a homework", "school", "learning", "write", "student", "I make a homework", "School", "Learning", "Write", "Student"],
+      "responses": ["I'm sorry, I also studied once ", "you must be having fun", "good luck with that"]},
+      {"tag": "simple",
+      "patterns": ["thanks", "thank you", "okay", "ok", "you cool", "good", "Thanks", "Thank you", "Okay", "Ok", "You cool", "Good"],
+      "responses": ["no problem", "what else?", "it my work"]},
+      {"tag": "sleep",
+      "patterns": ["i am go to bed", "sleep", "i sleep", "night", "I am go to bed", "Sleep", "I sleep", "Night"],
+      "responses": ["good night", "sweet dreams", "Cool"]},
+      {"tag": "dont leave",
+      "patterns": ["i dont leave", "i am here", "i want to talk", "wait, please", "no, this error", "I dont leave", "I am here", "I want to talk", "Wait, please", "No, this error"],
+      "responses": ["excuse me, most likely this error", "okay, i kidding :)"]}
+    ]
+  }
